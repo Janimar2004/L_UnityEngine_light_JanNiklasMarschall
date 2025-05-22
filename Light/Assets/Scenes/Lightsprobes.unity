@@ -97,8 +97,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1c311e78619cf724792083319ede15ab,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 02bbef1fd9a452c41b9bfc75e5622a11,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -140,7 +142,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &70101065
 BoxCollider:
@@ -245,7 +247,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &440261363
 BoxCollider:
@@ -399,7 +401,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1128042933
 BoxCollider:
@@ -640,7 +642,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &1331610844
 Light:
@@ -693,7 +695,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -759,7 +761,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1508825685
 BoxCollider:
@@ -847,6 +849,98 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &1522079161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1522079163}
+  - component: {fileID: 1522079162}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1522079162
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522079161}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 3.3559954, y: 1, z: -2.8259792}
+  - {x: 3.5013049, y: 1, z: 6.576337}
+  - {x: 3.5173745, y: -1.7361774, z: 6.661578}
+  - {x: 3.587435, y: -1.7361774, z: -3.0695496}
+  - {x: -6.1604652, y: 1, z: 6.497777}
+  - {x: -5.846401, y: 1, z: -3.017601}
+  - {x: -6.1858006, y: -1.7361774, z: 6.579828}
+  - {x: -5.846401, y: -1.7361774, z: -3.017601}
+  - {x: 3.5598564, y: -1.8420129, z: 2.1730905}
+  - {x: 3.5473719, y: -1.8420129, z: 2.856966}
+  - {x: 2.3363576, y: -1.8420129, z: 2.8694506}
+  - {x: 2.3488421, y: -1.8420129, z: 2.185575}
+  - {x: 1.2626748, y: -1.8420129, z: 2.8444812}
+  - {x: 1.2751595, y: -1.8420129, z: 2.1606057}
+  - {x: 0.1265688, y: -1.8420129, z: 2.8694506}
+  - {x: 0.13905358, y: -1.8420129, z: 2.185575}
+  - {x: -0.91387963, y: -1.8420129, z: 2.8694506}
+  - {x: -0.90139484, y: -1.8420129, z: 2.185575}
+  - {x: -1.6267521, y: -1.8420129, z: 2.8819351}
+  - {x: -1.6142676, y: -1.8420129, z: 2.1980596}
+  - {x: -2.7823622, y: -1.8420129, z: 2.8444812}
+  - {x: -2.7698777, y: -1.8420129, z: 2.1606057}
+  - {x: -3.693744, y: -1.8420129, z: 2.856966}
+  - {x: -3.6812594, y: -1.8420129, z: 2.1730905}
+  - {x: -4.7174873, y: -1.8420129, z: 2.8819351}
+  - {x: -4.705003, y: -1.8420129, z: 2.1980596}
+  - {x: -5.8411083, y: -1.8420129, z: 2.8569658}
+  - {x: -5.828624, y: -1.8420129, z: 2.1730902}
+  - {x: -0.9013946, y: -1.8420129, z: 1.7360191}
+  - {x: -1.6142676, y: -1.8420129, z: 1.7485037}
+  - {x: -0.9013946, y: -1.8420129, z: 0.82272243}
+  - {x: -1.6142676, y: -1.8420129, z: 0.835207}
+  - {x: -0.9013946, y: -1.8420129, z: -0.17905807}
+  - {x: -1.6142676, y: -1.8420129, z: -0.16657352}
+  - {x: -0.9013946, y: -1.8420129, z: -1.361403}
+  - {x: -1.6142676, y: -1.8420129, z: -1.3489184}
+  - {x: -0.9013946, y: -1.8420129, z: -2.33465}
+  - {x: -1.6142676, y: -1.8420129, z: -2.3221655}
+  - {x: -0.9013946, y: -1.8420129, z: -3.018299}
+  - {x: -1.6142676, y: -1.8420129, z: -3.0058146}
+  - {x: -1.6267521, y: -1.8420129, z: 4.7674108}
+  - {x: -3.693744, y: -1.8420129, z: 4.7424417}
+  - {x: -4.7174873, y: -1.8420129, z: 4.7674108}
+  - {x: -5.8411083, y: -1.8420129, z: 4.7424417}
+  - {x: 3.5473719, y: -1.8420129, z: 4.7424417}
+  - {x: 2.3363576, y: -1.8420129, z: 4.754926}
+  - {x: 1.2626748, y: -1.8420129, z: 4.729957}
+  - {x: 0.1265688, y: -1.8420129, z: 4.754926}
+  - {x: -0.91387963, y: -1.8420129, z: 4.754926}
+  - {x: -2.7823622, y: -1.8420129, z: 4.729957}
+  m_Dering: 1
+--- !u!4 &1522079163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522079161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.74, y: 1.8420129, z: -5.300602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2100061251
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +954,7 @@ GameObject:
   - component: {fileID: 2100061253}
   - component: {fileID: 2100061252}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Dynamic Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +1040,7 @@ Transform:
   m_GameObject: {fileID: 2100061251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.94, y: 0.52, z: -4.56}
+  m_LocalPosition: {x: -8.56, y: 0.52, z: -6.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -964,3 +1058,4 @@ SceneRoots:
   - {fileID: 1508825688}
   - {fileID: 958142611}
   - {fileID: 2100061255}
+  - {fileID: 1522079163}
